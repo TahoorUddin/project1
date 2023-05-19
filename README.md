@@ -1,1 +1,2 @@
-# project1
+# My first project Tripzy a travels website
+
