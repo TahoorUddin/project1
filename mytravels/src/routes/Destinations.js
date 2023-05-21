@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImage from "../assets/2.jpg";
+import Footer from "../components/Footer";
+import Trip from "../components/Trip";
 
 function Destinations() {
   return (
@@ -12,6 +14,8 @@ function Destinations() {
         title="Destinations"
         btnClass="hide"
       />
+      <Trip />
+      <Footer />
     </>
   );
 }

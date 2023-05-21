@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImage from "../assets/1.jpg";
+import Footer from "../components/Footer";
 
 function Plans() {
   return (
@@ -12,6 +13,7 @@ function Plans() {
         title="Plans"
         btnClass="hide"
       />
+      <Footer />
     </>
   );
 }

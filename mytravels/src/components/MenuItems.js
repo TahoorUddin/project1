@@ -6,22 +6,10 @@ export const MenuItems = [
     icon: "fa-solid fa-house-user",
   },
   {
-    title: "Gallery",
-    url: "/gallery",
-    cName: "nav-links",
-    icon: "<fa-solid fa-image",
-  },
-  {
     title: "Destinations",
     url: "/destinations",
     cName: "nav-links",
     icon: "fa-duotone fa-plane",
-  },
-  {
-    title: "Plans",
-    url: "/plans",
-    cName: "nav-links",
-    icon: "fa-sharp fa-solid fa-money-check-dollar-pen",
   },
   {
     title: "About",
@@ -29,6 +17,13 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "fa-solid fa-circle-info",
   },
+  {
+    title: "Contact Us",
+    url: "/contactUs",
+    cName: "nav-links",
+    icon: "fa-sharp fa-solid fa-money-check-dollar-pen",
+  },
+
   {
     title: "SignUp",
     url: "/signUp",

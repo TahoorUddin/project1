@@ -1,23 +1,21 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import AboutImage from "../assets/night.jpg";
+import AboutImg from "../assets/2.jpg";
 import Footer from "../components/Footer";
-import AboutUs from "../components/AboutUs";
+import ContactForm from "../components/ContactForm";
 
-function About() {
+export default function Contact() {
   return (
     <>
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={AboutImage}
-        title="About"
+        heroImg={AboutImg}
+        title="Contact"
         btnClass="hide"
       />
-      <AboutUs />
+      <ContactForm />
       <Footer />
     </>
   );
 }
-
-export default About;
